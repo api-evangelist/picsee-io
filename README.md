@@ -1,4 +1,4 @@
-# picsee-io
+# PicSee Inc.
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-picsee-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://picsee.io/
+PicSee Inc. provides a URL shortening service with a free API, analytics, QR codes, and bulk shortening. Founded in 2016, it serves millions of links monthly across Asia and globally, offering customizable domains, UTM builder, and enterprise features. The company emphasizes data transparency for marketers and operates a remote MCP server for API access.
+
+**Areas:** URL Shortener · API · Analytics · QR Codes · Bulk
+
+## PicSee Inc. on APIs.io
+
+Everything profiled for PicSee Inc. is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/picsee-io/](https://apis.io/providers/picsee-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [PicSee Inc. Analytics API](https://apis.io/apis/picsee-io/picsee-io-analytics-api/) — Click analytics — overview, daily clicks, platform, referrer, country, and audience labels.
+- [PicSee Inc. Authorized Security Partners Only API](https://apis.io/apis/picsee-io/picsee-io-authorized-security-partners-only-api/) — Endpoints exclusively available to authorized security partners.
+- [PicSee Inc. My Account API](https://apis.io/apis/picsee-io/picsee-io-my-account-api/) — Account-level endpoints — API plan & usage, domains, tags, tracking tools.
+- [PicSee Inc. Short Links API](https://apis.io/apis/picsee-io/picsee-io-short-links-api/) — Create, list, edit, batch create, and delete short links.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [PicSee Inc. Agentic Access](https://apis.io/agentic-access/picsee-io/picsee-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ApiStatus](https://apis.io/schemas/picsee-io/picsee-io-api-status/)
+- [Link](https://apis.io/schemas/picsee-io/picsee-io-link/)
+- [LinkAnalytics](https://apis.io/schemas/picsee-io/picsee-io-link-analytics/)
+- [LinkEditRequest](https://apis.io/schemas/picsee-io/picsee-io-link-edit-request/)
+- [Links](https://apis.io/schemas/picsee-io/picsee-io-links/)
+- [LinksSearchParams](https://apis.io/schemas/picsee-io/picsee-io-links-search-params/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Picsee Io Context](https://apis.io/jsonld/picsee-io/picsee-io-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [PicSee Inc. Openapi Overlay](https://apis.io/overlays/picsee-io/picsee-io-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PicSee Inc. API Rules](https://apis.io/rules/picsee-io/picsee-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PicSee Inc. Authentication](https://apis.io/security/picsee-io/picsee-io-authentication/)
+- [PicSee Inc. Domain Security](https://apis.io/security/picsee-io/picsee-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [PicSee Inc. Plans Pricing](https://apis.io/plans/picsee-io/picsee-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://picsee.io/)
+- [Documentation](https://picsee.io/en/developers)
+- [Pricing](https://picsee.io/en/pricing)
+- [Support](https://picsee.io/en/help)
+- [Security](https://picsee.io/security)
+- [Terms of service](https://picsee.io/en/policy)
+- [Privacy policy](https://picsee.io/en/privacy)
+
+## API Evangelist rating
+
+**Kin Score 55.0** — strong · rubric 0.27.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 57.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 73.2 |
+
+**Agent readiness 48.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/picsee-io/](https://apis.io/providers/picsee-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PicSee Inc.: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/picsee-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
